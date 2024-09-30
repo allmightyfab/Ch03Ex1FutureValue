@@ -12,31 +12,31 @@
         <form asp-action="Index" method="post" class="form-horizontal">
             <div class="row">
                 <label asp-for="MonthlyInvestment"
-                       class="control-label col-sm-3">
+                       class="control-label col-sm-1">
                     Monthly Investment:
                 </label>
                 <input asp-for="MonthlyInvestment"
-                       class="form-control col-sm-3" />
+                       class="form-control col-sm-1" />
                 <span asp-validation-for="@Model.MonthlyInvestment"
                       class="text-danger col"></span>
             </div>
             <div class="row">
                 <label asp-for="YearlyInterestRate"
-                       class="control-label col-sm-3">
+                       class="control-label col-sm-1">
                     Yearly Interest Rate:
                 </label>
                 <input asp-for="YearlyInterestRate"
-                       class="form-control col-sm-3" />
+                       class="form-control col-sm-1" />
                 <span asp-validation-for="@Model.YearlyInterestRate"
                       class="text-danger col"></span>
             </div>
             <div class="row">
                 <label asp-for="Years"
-                       class="control-label col-sm-3">
+                       class="control-label col-sm-1">
                     Number of Years:
                 </label>
                 <input asp-for="Years"
-                       class="form-control col-sm-3" />
+                       class="form-control col-sm-1" />
                 <span asp-validation-for="@Model.Years"
                       class="text-danger col"></span>
             </div>
